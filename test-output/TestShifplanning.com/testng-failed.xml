@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestShifplanning.com]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestLogin(failed)">
+    <classes>
+      <class name="com.shiftplanning.TestCases.TC1LoginChrome">
+        <methods>
+          <include name="terminateBrowser"/>
+          <include name="verifyLoginCredentials" invocation-numbers="0 2"/>
+        </methods>
+      </class> <!-- com.shiftplanning.TestCases.TC1LoginChrome -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [TestShifplanning.com] -->

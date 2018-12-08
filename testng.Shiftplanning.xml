@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestShifplanning.com">
+
+  <test name="TestLogin">
+    <classes>
+      <class name="com.shiftplanning.TestCases.TC1LoginChrome"/>
+    </classes>
+  </test>
+  
+  <test name="TestAddNewEmployee">
+    <classes>
+      <class name="com.shiftplanning.TestCases.TC2AddingNewEmployeeChrome"/>
+    </classes>
+  </test>
+  
+  <test name="TestClockinClockout">
+    <classes>
+      <class name="com.shiftplanning.TestCases.TC3ClockinClockoutChrome"/>
+    </classes>
+  </test>
+  
+</suite>

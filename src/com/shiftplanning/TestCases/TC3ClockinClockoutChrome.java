@@ -44,8 +44,6 @@ public class TC3ClockinClockoutChrome {
 		clock.clickClockIn();
 		clock.clickClockOut();
 
-		System.out.println("Clock in / Clock out are functioning as expected");
-
 	}
 
 	@AfterTest
